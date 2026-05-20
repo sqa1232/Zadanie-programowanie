@@ -1,6 +1,5 @@
-print("--- ZADANIE 2: Konwerter temperatur ---")
+print("Zadanie 2")
 
-# Wybór kierunku (funkcja .upper() zamienia małą literę na wielką)
 kierunek = input("Wybierz kierunek (C - z Celsjusza na Fahrenheit, F - z Fahrenheita na Celsjusz): ").upper()
 
 if kierunek == "C":

@@ -1,4 +1,4 @@
-Console.WriteLine("--- ZADANIE 2: Konwerter temperatur ---");
+Console.WriteLine("Zadanie 2");
 
 Console.Write("Wybierz kierunek (C - z Celsjusza na Fahrenheit, F - z Fahrenheita na Celsjusz): ");
 string kierunek = Console.ReadLine().ToUpper();

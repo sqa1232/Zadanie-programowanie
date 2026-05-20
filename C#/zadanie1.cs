@@ -1,4 +1,4 @@
-Console.WriteLine("--- ZADANIE 1: Kalkulator ---");
+Console.WriteLine("Zadanie 1");
 
 Console.Write("Podaj pierwszą liczbę: ");
 double liczba1 = Convert.ToDouble(Console.ReadLine());

@@ -1,4 +1,4 @@
-Console.WriteLine("--- ZADANIE 3: Średnia ocen ucznia ---");
+Console.WriteLine("Zadanie 3");
 
 Console.Write("Podaj liczbę ocen: ");
 int liczbaOcen = Convert.ToInt32(Console.ReadLine());
@@ -13,8 +13,6 @@ for (int i = 0; i < liczbaOcen; i++)
 }
 
 double srednia = sumaOcen / liczbaOcen;
-
-// Wypisanie średniej zaokrąglonej do 2 miejsc po przecinku
 Console.WriteLine("Średnia: {0:F2}", srednia);
 
 if (srednia >= 3.0)

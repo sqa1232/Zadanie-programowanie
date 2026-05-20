@@ -1,6 +1,6 @@
 print("Zadanie 2")
 
-kierunek = input("Wybierz kierunek (C - z Celsjusza na Fahrenheit, F - z Fahrenheita na Celsjusz): ").upper()
+kierunek = input("Wybierz jednostkę (C - z Celsjusza na Fahrenheit, F - z Fahrenheita na Celsjusz): ").upper()
 
 if kierunek == "C":
     celsjusz = float(input("Podaj temperaturę w °C: "))
